@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170590751648560600D9BEC3 /* CVKLongPollServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 170590741648560500D9BEC3 /* CVKLongPollServer.cpp */; };
+		17AC04EA1643C15300889506 /* CLogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04E81643C15300889506 /* CLogManager.cpp */; };
+		17AC050D1643C18100889506 /* CVKAudioLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04EC1643C18100889506 /* CVKAudioLoader.cpp */; };
+		17AC050E1643C18100889506 /* CVKAuthorizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04EE1643C18100889506 /* CVKAuthorizer.cpp */; };
+		17AC050F1643C18100889506 /* CVKMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04F11643C18100889506 /* CVKMessage.cpp */; };
+		17AC05101643C18100889506 /* CVKMessageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04F31643C18100889506 /* CVKMessageLoader.cpp */; };
+		17AC05111643C18100889506 /* CVKMethodCaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04F51643C18100889506 /* CVKMethodCaller.cpp */; };
+		17AC05121643C18100889506 /* CVKMethodHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04F71643C18100889506 /* CVKMethodHolder.cpp */; };
+		17AC05131643C18100889506 /* CVKUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC04F91643C18100889506 /* CVKUser.cpp */; };
+		17AC05141643C18100889506 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC05051643C18100889506 /* json_reader.cpp */; };
+		17AC05151643C18100889506 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC05071643C18100889506 /* json_value.cpp */; };
+		17AC05161643C18100889506 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC05091643C18100889506 /* json_writer.cpp */; };
+		17AC05181643C19000889506 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AC05171643C19000889506 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1787A13C15C2F7A0005C2EFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1705907116484CBD00D9BEC3 /* CVKLongPollServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CVKLongPollServer.h; path = vkConsoleMessager/CVKLongPollServer.h; sourceTree = SOURCE_ROOT; };
+		170590741648560500D9BEC3 /* CVKLongPollServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKLongPollServer.cpp; path = vkConsoleMessager/CVKLongPollServer.cpp; sourceTree = SOURCE_ROOT; };
+		171CF65D166090CA00182E1B /* CVKEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVKEvents.h; sourceTree = SOURCE_ROOT; };
+		1787A13E15C2F7A0005C2EFC /* vkConsoleMessager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vkConsoleMessager; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AC04E81643C15300889506 /* CLogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLogManager.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04E91643C15300889506 /* CLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLogManager.h; sourceTree = SOURCE_ROOT; };
+		17AC04EC1643C18100889506 /* CVKAudioLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKAudioLoader.cpp; path = vkConsoleMessager/CVKAudioLoader.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04ED1643C18100889506 /* CVKAudioLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKAudioLoader.h; path = vkConsoleMessager/CVKAudioLoader.h; sourceTree = SOURCE_ROOT; };
+		17AC04EE1643C18100889506 /* CVKAuthorizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKAuthorizer.cpp; path = vkConsoleMessager/CVKAuthorizer.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04EF1643C18100889506 /* CVKAuthorizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKAuthorizer.h; path = vkConsoleMessager/CVKAuthorizer.h; sourceTree = SOURCE_ROOT; };
+		17AC04F01643C18100889506 /* CVKChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKChat.h; path = vkConsoleMessager/CVKChat.h; sourceTree = SOURCE_ROOT; };
+		17AC04F11643C18100889506 /* CVKMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKMessage.cpp; path = vkConsoleMessager/CVKMessage.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04F21643C18100889506 /* CVKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKMessage.h; path = vkConsoleMessager/CVKMessage.h; sourceTree = SOURCE_ROOT; };
+		17AC04F31643C18100889506 /* CVKMessageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKMessageLoader.cpp; path = vkConsoleMessager/CVKMessageLoader.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04F41643C18100889506 /* CVKMessageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKMessageLoader.h; path = vkConsoleMessager/CVKMessageLoader.h; sourceTree = SOURCE_ROOT; };
+		17AC04F51643C18100889506 /* CVKMethodCaller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKMethodCaller.cpp; path = vkConsoleMessager/CVKMethodCaller.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04F61643C18100889506 /* CVKMethodCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKMethodCaller.h; path = vkConsoleMessager/CVKMethodCaller.h; sourceTree = SOURCE_ROOT; };
+		17AC04F71643C18100889506 /* CVKMethodHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKMethodHolder.cpp; path = vkConsoleMessager/CVKMethodHolder.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04F81643C18100889506 /* CVKMethodHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKMethodHolder.h; path = vkConsoleMessager/CVKMethodHolder.h; sourceTree = SOURCE_ROOT; };
+		17AC04F91643C18100889506 /* CVKUser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVKUser.cpp; path = vkConsoleMessager/CVKUser.cpp; sourceTree = SOURCE_ROOT; };
+		17AC04FA1643C18100889506 /* CVKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVKUser.h; path = vkConsoleMessager/CVKUser.h; sourceTree = SOURCE_ROOT; };
+		17AC04FC1643C18100889506 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assertions.h; sourceTree = "<group>"; };
+		17AC04FD1643C18100889506 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		17AC04FE1643C18100889506 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		17AC04FF1643C18100889506 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		17AC05001643C18100889506 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		17AC05011643C18100889506 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		17AC05021643C18100889506 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		17AC05031643C18100889506 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		17AC05041643C18100889506 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		17AC05051643C18100889506 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		17AC05061643C18100889506 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
+		17AC05071643C18100889506 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		17AC05081643C18100889506 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		17AC05091643C18100889506 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		17AC050A1643C18100889506 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		17AC050B1643C18100889506 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		17AC050C1643C18100889506 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		17AC05171643C19000889506 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = vkConsoleMessager/main.cpp; sourceTree = SOURCE_ROOT; };
+		17CD42EB15CF2BA900E049A1 /* libextractor.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libextractor.3.dylib; path = ../../../../../usr/local/Cellar/libextractor/0.6.3/lib/libextractor.3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1787A13B15C2F7A0005C2EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1787A13315C2F7A0005C2EFC = {
+			isa = PBXGroup;
+			children = (
+				17CD42EB15CF2BA900E049A1 /* libextractor.3.dylib */,
+				1787A14115C2F7A0005C2EFC /* vkConsoleMessager */,
+				1787A13F15C2F7A0005C2EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1787A13F15C2F7A0005C2EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1787A13E15C2F7A0005C2EFC /* vkConsoleMessager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1787A14115C2F7A0005C2EFC /* vkConsoleMessager */ = {
+			isa = PBXGroup;
+			children = (
+				17AC05171643C19000889506 /* main.cpp */,
+				17AC04EB1643C15800889506 /* vklib */,
+				17AC04E81643C15300889506 /* CLogManager.cpp */,
+				17AC04E91643C15300889506 /* CLogManager.h */,
+			);
+			name = vkConsoleMessager;
+			path = "osx-first-app";
+			sourceTree = "<group>";
+		};
+		17AC04EB1643C15800889506 /* vklib */ = {
+			isa = PBXGroup;
+			children = (
+				171CF65D166090CA00182E1B /* CVKEvents.h */,
+				170590741648560500D9BEC3 /* CVKLongPollServer.cpp */,
+				1705907116484CBD00D9BEC3 /* CVKLongPollServer.h */,
+				17AC04EC1643C18100889506 /* CVKAudioLoader.cpp */,
+				17AC04ED1643C18100889506 /* CVKAudioLoader.h */,
+				17AC04EE1643C18100889506 /* CVKAuthorizer.cpp */,
+				17AC04EF1643C18100889506 /* CVKAuthorizer.h */,
+				17AC04F01643C18100889506 /* CVKChat.h */,
+				17AC04F11643C18100889506 /* CVKMessage.cpp */,
+				17AC04F21643C18100889506 /* CVKMessage.h */,
+				17AC04F31643C18100889506 /* CVKMessageLoader.cpp */,
+				17AC04F41643C18100889506 /* CVKMessageLoader.h */,
+				17AC04F51643C18100889506 /* CVKMethodCaller.cpp */,
+				17AC04F61643C18100889506 /* CVKMethodCaller.h */,
+				17AC04F71643C18100889506 /* CVKMethodHolder.cpp */,
+				17AC04F81643C18100889506 /* CVKMethodHolder.h */,
+				17AC04F91643C18100889506 /* CVKUser.cpp */,
+				17AC04FA1643C18100889506 /* CVKUser.h */,
+				17AC04FB1643C18100889506 /* json */,
+			);
+			name = vklib;
+			sourceTree = "<group>";
+		};
+		17AC04FB1643C18100889506 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				17AC04FC1643C18100889506 /* assertions.h */,
+				17AC04FD1643C18100889506 /* autolink.h */,
+				17AC04FE1643C18100889506 /* config.h */,
+				17AC04FF1643C18100889506 /* features.h */,
+				17AC05001643C18100889506 /* forwards.h */,
+				17AC05011643C18100889506 /* json.h */,
+				17AC05021643C18100889506 /* json_batchallocator.h */,
+				17AC05031643C18100889506 /* json_internalarray.inl */,
+				17AC05041643C18100889506 /* json_internalmap.inl */,
+				17AC05051643C18100889506 /* json_reader.cpp */,
+				17AC05061643C18100889506 /* json_tool.h */,
+				17AC05071643C18100889506 /* json_value.cpp */,
+				17AC05081643C18100889506 /* json_valueiterator.inl */,
+				17AC05091643C18100889506 /* json_writer.cpp */,
+				17AC050A1643C18100889506 /* reader.h */,
+				17AC050B1643C18100889506 /* value.h */,
+				17AC050C1643C18100889506 /* writer.h */,
+			);
+			name = json;
+			path = vkConsoleMessager/json;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1787A13D15C2F7A0005C2EFC /* vkConsoleMessager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1787A14815C2F7A0005C2EFC /* Build configuration list for PBXNativeTarget "vkConsoleMessager" */;
+			buildPhases = (
+				1787A13A15C2F7A0005C2EFC /* Sources */,
+				1787A13B15C2F7A0005C2EFC /* Frameworks */,
+				1787A13C15C2F7A0005C2EFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkConsoleMessager;
+			productName = "osx-first-app";
+			productReference = 1787A13E15C2F7A0005C2EFC /* vkConsoleMessager */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1787A13515C2F7A0005C2EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Zubr Kabbi";
+			};
+			buildConfigurationList = 1787A13815C2F7A0005C2EFC /* Build configuration list for PBXProject "vkCOnsoleMessager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1787A13315C2F7A0005C2EFC;
+			productRefGroup = 1787A13F15C2F7A0005C2EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1787A13D15C2F7A0005C2EFC /* vkConsoleMessager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1787A13A15C2F7A0005C2EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AC04EA1643C15300889506 /* CLogManager.cpp in Sources */,
+				17AC050D1643C18100889506 /* CVKAudioLoader.cpp in Sources */,
+				17AC050E1643C18100889506 /* CVKAuthorizer.cpp in Sources */,
+				17AC050F1643C18100889506 /* CVKMessage.cpp in Sources */,
+				17AC05101643C18100889506 /* CVKMessageLoader.cpp in Sources */,
+				17AC05111643C18100889506 /* CVKMethodCaller.cpp in Sources */,
+				17AC05121643C18100889506 /* CVKMethodHolder.cpp in Sources */,
+				17AC05131643C18100889506 /* CVKUser.cpp in Sources */,
+				17AC05141643C18100889506 /* json_reader.cpp in Sources */,
+				17AC05151643C18100889506 /* json_value.cpp in Sources */,
+				17AC05161643C18100889506 /* json_writer.cpp in Sources */,
+				17AC05181643C19000889506 /* main.cpp in Sources */,
+				170590751648560600D9BEC3 /* CVKLongPollServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1787A14615C2F7A0005C2EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1787A14715C2F7A0005C2EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1787A14915C2F7A0005C2EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/osxfuse,
+					"/Users/zubr/dev/osx/osx-first-app/osx-first-app",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/local/Cellar/libextractor/0.6.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lcurlpp",
+					"-lcurl",
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1787A14A15C2F7A0005C2EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/osxfuse,
+					"/Users/zubr/dev/osx/osx-first-app/osx-first-app",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/local/Cellar/libextractor/0.6.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lcurlpp",
+					"-lcurl",
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1787A13815C2F7A0005C2EFC /* Build configuration list for PBXProject "vkCOnsoleMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1787A14615C2F7A0005C2EFC /* Debug */,
+				1787A14715C2F7A0005C2EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1787A14815C2F7A0005C2EFC /* Build configuration list for PBXNativeTarget "vkConsoleMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1787A14915C2F7A0005C2EFC /* Debug */,
+				1787A14A15C2F7A0005C2EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1787A13515C2F7A0005C2EFC /* Project object */;
+}
